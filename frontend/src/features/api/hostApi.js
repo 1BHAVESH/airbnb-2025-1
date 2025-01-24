@@ -1,6 +1,6 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react"
 
-const HOST_API = "http://localhost:2020/api/v1/host";
+const HOST_API = "https://airbnb-2025-1.onrender.com/api/v1/host";
 
 export const hostApi = createApi({
     reducerPath: "hostApi",
